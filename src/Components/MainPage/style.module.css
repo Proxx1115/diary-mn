@@ -12,7 +12,7 @@ a i {
   margin: 3.5rem 3rem 0 0;
 }
 div .yourStories {
-  font-family: "Pushster", cursive;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: 900;
   font-size: 2rem;
 }
@@ -38,4 +38,30 @@ div .yourStories {
   top: 0;
   left: 0;
   z-index: -2;
+}
+@media (max-width: 600px) {
+  div .yourStories {
+    font-size: 1.5rem;
+  }
+  a i {
+    position: fixed;
+    right: 0;
+    top: 0;
+    color: rgb(24, 186, 186);
+    font-size: 1.5rem;
+    margin: 3.5rem 3rem 0 0;
+  }
+}
+@media (max-width: 450px) {
+  div .yourStories {
+    font-size: 1rem;
+  }
+  a i {
+    position: fixed;
+    right: 0;
+    top: 0;
+    color: rgb(24, 186, 186);
+    font-size: 1rem;
+    margin: 3.5rem 3rem 0 0;
+  }
 }
