@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
+.MainPage {
+  position: relative;
+  padding: 3rem 1rem;
+}
+a i {
+  position: fixed;
+  right: 0;
+  top: 0;
+  color: rgb(24, 186, 186);
+  font-size: 2rem;
+  margin: 3.5rem 3rem 0 0;
+}
+div .yourStories {
+  font-family: "Pushster", cursive;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.btnCont {
+  width: 50%;
+  margin: auto;
+}
+.yourStories {
+  color: rgb(186, 24, 177);
+  text-shadow: 2px 2px 8px rgb(186, 24, 177);
+}
+.btnCont a button {
+  background: linear-gradient(
+    45deg,
+    rgba(186, 24, 177, 0.4) 0%,
+    rgba(24, 186, 186, 0.4) 100%
+  );
+  font-size: 1.2rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.backImage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}

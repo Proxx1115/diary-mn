@@ -1,0 +1,73 @@
+.Signup {
+  position: relative;
+  width: 350px;
+  height: 510px;
+  -webkit-border-top-left-radius: 60px;
+  -webkit-border-bottom-right-radius: 60px;
+  -moz-border-radius-topleft: 60px;
+  -moz-border-radius-bottomright: 60px;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 0px 0px 21px 0px rgba(182, 33, 254, 0.75);
+  -webkit-box-shadow: 0px 0px 21px 0px rgba(182, 33, 254, 0.75);
+  -moz-box-shadow: 0px 0px 21px 0px rgba(182, 33, 254, 0.75);
+  font-family: poppins;
+}
+.Signup input {
+  margin-bottom: 12px;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../../assets/pink.png") center center/cover;
+}
+.brandTitle {
+  margin-left: 24%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #ba18b1;
+  letter-spacing: 1px;
+}
+.brandLogo {
+  background-image: linear-gradient(315deg, #3c2744 0%, #ba18b1 74%);
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+.error {
+  color: red;
+  text-align: center;
+  padding-top: 0.2rem;
+}
+.btn {
+  margin-top: 20px;
+  background: #ba18b1;
+  color: #fff;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  transition: 0.3s;
+  margin-bottom: 7px;
+}
+.Menu {
+  display: inline;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 48px;
+  z-index: 300;
+  color: #ba18b1;
+}
